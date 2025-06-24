@@ -11,7 +11,7 @@ export default function Footer() {
 
                 {/* Legal Info */}
                 <div>
-                    <h4 className="font-semibold text-cyan-400 mb-2">Rechtliches</h4>
+                    <h4 className="font-semibold text-white mb-2">Rechtliches</h4>
                     <ul className="space-y-1">
                         <li><a href="#" className="hover:underline">Impressum</a></li>
                         <li><a href="#" className="hover:underline">Datenschutz</a></li>
@@ -20,7 +20,7 @@ export default function Footer() {
 
                 {/* Contact */}
                 <div>
-                    <h4 className="font-semibold text-cyan-400 mb-2">Kontakt</h4>
+                    <h4 className="font-semibold text-white mb-2">Kontakt</h4>
                     <ul className="space-y-1">
                         <li className='flex items-center gap-5 pb-0.5'><img src={telephone} className='w-5' /> 09498 94 01-0</li>
                         <li className='flex items-center gap-5 pb-0.5'><img src={fax} className='w-5' /> 09498 94 01-99</li>
@@ -31,7 +31,7 @@ export default function Footer() {
 
                 {/* Address */}
                 <div>
-                    <h4 className="font-semibold text-cyan-400 mb-2">Gemeinde</h4>
+                    <h4 className="font-semibold text-white mb-2">Gemeinde</h4>
                     <ul className="space-y-1">
                         <li>Markt Laaber</li>
                         <li>Jakobstraße 9</li>
@@ -41,7 +41,7 @@ export default function Footer() {
 
                 {/* Opening Hours */}
                 <div>
-                    <h4 className="font-semibold text-cyan-400 mb-2">Öffnungszeiten</h4>
+                    <h4 className="font-semibold text-white mb-2">Öffnungszeiten</h4>
                     <ul className="space-y-1">
                         <li>Mo–Fr: 08:00 – 12:00 Uhr</li>
                         <li>Do: 13:00 – 18:00 Uhr</li>
@@ -50,7 +50,7 @@ export default function Footer() {
             </div>
 
             {/* Footer Bottom */}
-            <div className="text-center text-xs text-cyan-300 mt-8">
+            <div className="text-center text-xs text-white mt-8">
                 © {new Date().getFullYear()} Markt Laaber. Alle Rechte vorbehalten.
             </div>
         </footer>

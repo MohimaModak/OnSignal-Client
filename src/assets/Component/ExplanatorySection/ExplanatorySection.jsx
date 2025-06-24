@@ -18,7 +18,7 @@ export default function ExplanatorySection() {
     return (
         <div className='py-14 px-6 lg:px-20 relative text-center bg-gray-900'>
             <div data-aos="fade-up" className='max-w-3xl mx-auto'>
-                <h2 className='text-3xl md:text-4xl font-bold mb-4 text-cyan-400'>
+                <h2 className='text-3xl md:text-4xl font-bold mb-4 text-white'>
                     Was ist das?
                 </h2>
                 <p className='text-lg text-gray-300 leading-relaxed'>
