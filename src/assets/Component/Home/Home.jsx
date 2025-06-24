@@ -76,7 +76,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import ExplanatorySection from '../ExplanatorySection/ExplanatorySection';
 import Footer from '../Footer/Footer';
-import OneSignal from '../OneSignal/OneSignal';
+import OneSignal from '../../../OneSignal/OneSignal';
 
 export default function Home() {
 
@@ -117,7 +117,7 @@ export default function Home() {
       </div>
 
       <ExplanatorySection />
-      <OneSignal />
+      <OneSignal></OneSignal>
       <Footer />
     </div>
   );
