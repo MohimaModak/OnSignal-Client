@@ -348,11 +348,14 @@ const OneSignal = () => {
             >
               <h2 className="text-2xl font-semibold text-white mb-3">{category.name}</h2>
               <p className="text-gray-300">{category.txt}</p>
-              {selectedCategory === category.id && (
+              <div className="mt-4 text-sm font-bold text-green-400">
+                  ✓ Aktiviert
+                </div>
+              {/* {selectedCategory === category.id && (
                 <div className="mt-4 text-sm font-bold text-green-400">
                   ✓ Aktiviert
                 </div>
-              )}
+              )} */}
             </div>
           ))}
         </main>
